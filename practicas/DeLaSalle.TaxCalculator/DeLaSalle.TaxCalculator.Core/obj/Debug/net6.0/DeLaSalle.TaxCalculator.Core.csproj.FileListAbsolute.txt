@@ -1,0 +1,12 @@
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/bin/Debug/net6.0/DeLaSalle.TaxCalculator.Core.deps.json
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/bin/Debug/net6.0/DeLaSalle.TaxCalculator.Core.dll
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/bin/Debug/net6.0/DeLaSalle.TaxCalculator.Core.pdb
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/DeLaSalle.TaxCalculator.Core.csproj.AssemblyReference.cache
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/DeLaSalle.TaxCalculator.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/DeLaSalle.TaxCalculator.Core.AssemblyInfoInputs.cache
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/DeLaSalle.TaxCalculator.Core.AssemblyInfo.cs
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/DeLaSalle.TaxCalculator.Core.csproj.CoreCompileInputs.cache
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/DeLaSalle.TaxCalculator.Core.dll
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/refint/DeLaSalle.TaxCalculator.Core.dll
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/DeLaSalle.TaxCalculator.Core.pdb
+/Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.Core/obj/Debug/net6.0/ref/DeLaSalle.TaxCalculator.Core.dll
