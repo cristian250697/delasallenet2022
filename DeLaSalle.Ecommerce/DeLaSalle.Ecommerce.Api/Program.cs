@@ -4,6 +4,8 @@ using DeLaSalle.Ecommerce.Api.DataAccess;
 using DeLaSalle.Ecommerce.Api.DataAccess.Interfaces;
 using DeLaSalle.Ecommerce.Api.Repositories;
 using DeLaSalle.Ecommerce.Api.Repositories.Interfaces;
+using DeLaSalle.Ecommerce.Api.Services;
+using DeLaSalle.Ecommerce.Api.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,7 @@ builder.Services.AddSwaggerGen();
 
 // builder.Services.AddSingleton<IProductCategoryRepository,InMemoryProductCategoryRepository>();
 builder.Services.AddScoped<IProductCategoryRepository,ProductCategoryRepository>();
+builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
 builder.Services.AddScoped<IDbContext, DbContext>();
 
 SqlMapperExtensions.TableNameMapper = entityType =>

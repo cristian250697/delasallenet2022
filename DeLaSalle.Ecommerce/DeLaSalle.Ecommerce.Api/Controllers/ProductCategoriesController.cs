@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using DeLaSalle.Ecommerce.Api.Repositories.Interfaces;
+using DeLaSalle.Ecommerce.Api.Services.Interfaces;
+using DeLaSalle.Ecommerce.Core.Dto;
 using DeLaSalle.Ecommerce.Core.Entities;
 using DeLaSalle.Ecommerce.Core.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,64 +12,73 @@ namespace DeLaSalle.Ecommerce.Api.Controllers;
 [Route("api/[controller]")]
 public class ProductCategoriesController : ControllerBase
 {
-    private readonly IProductCategoryRepository _productCategoryRepository;
     
-    public ProductCategoriesController(IProductCategoryRepository productCategoryRepository)
+    private readonly IProductCategoryService _productCategoryService;
+    
+    public ProductCategoriesController(IProductCategoryService productCategoryService)
     {
-        _productCategoryRepository = productCategoryRepository;
+        _productCategoryService = productCategoryService;
     }
     
     [HttpGet]
-    public async Task<ActionResult<Response<List<ProductCategory>>>> GetAll()
+    public async Task<ActionResult<Response<List<ProductCategoryDto>>>> GetAll()
     {
-        var response = new Response<List<ProductCategory>>();
-        var categories = await _productCategoryRepository.GetAllAsync();
-        response.Data = categories;
+        var response = new Response<List<ProductCategoryDto>>
+        {
+            Data = await _productCategoryService.GetAllAsync()
+        };
+        
         return Ok(response);
     }
     
     [HttpPost]
-    public async Task<ActionResult<Response<ProductCategory>>> Post([FromBody] ProductCategory category)
+    public async Task<ActionResult<Response<ProductCategoryDto>>> Post([FromBody] ProductCategoryDto categoryDto)
     {
-        category = await _productCategoryRepository.SaveAsync(category);
-       
-        var response = new Response<ProductCategory>();
-        response.Data = category;
-        
-        return Created($"/api/[controler]/{category.Id}",response);
+        var response = new Response<ProductCategoryDto>
+        {
+            Data = await _productCategoryService.SaveAsync(categoryDto)
+        };
+        return Created($"/api/[controler]/{response.Data.Id}",response);
     }
 
     [HttpGet]
     [Route("{id:int}")]
-    public async Task<ActionResult<Response<ProductCategory>>> GetById( int id )
+    public async Task<ActionResult<Response<ProductCategoryDto>>> GetById( int id )
     {
-        var response = new Response<ProductCategory>();
-        var category = await _productCategoryRepository.GetById(id);
-        response.Data = category;
+        var response = new Response<ProductCategoryDto>();
         
-        if (category == null)
+        if (!await _productCategoryService.ProductCategoryExist(id))
+        {
+            response.Errors.Add("Product Category Not Found");
+            return NotFound(response);
+        } 
+
+        response.Data = await _productCategoryService.GetById(id);
+        return Ok(response);
+    }
+
+    [HttpPut]
+    public async Task<ActionResult<Response<ProductCategoryDto>>> Update([FromBody] ProductCategoryDto categoryDto)
+    {
+        var response = new Response<ProductCategoryDto>();
+        
+        if (!await _productCategoryService.ProductCategoryExist(categoryDto.Id))
         {
             response.Errors.Add("Product Category Not Found");
             return NotFound(response);
         }
 
+        response.Data = await _productCategoryService.UpdateAsync(categoryDto);
+
         return Ok(response);
     }
-
-    [HttpPut]
-    public async Task<ActionResult<Response<ProductCategory>>> Update([FromBody] ProductCategory category)
-    {
-        var result = await _productCategoryRepository.UpdateAsync(category);
-        var response = new Response<ProductCategory>{ Data = result};
-        return Ok(response);
-    }
-
+    
     [HttpDelete]
     [Route("{id:int}")]
     public async Task<ActionResult<Response<bool>>> Delete(int id)
     {
         var response = new Response<bool>();
-        var result = await _productCategoryRepository.DeleteAsync(id);
+        var result = await _productCategoryService.DeleteAsync(id);
         response.Data = result;
         
         return Ok(response);
