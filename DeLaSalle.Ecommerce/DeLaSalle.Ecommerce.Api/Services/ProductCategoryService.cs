@@ -5,11 +5,12 @@ using DeLaSalle.Ecommerce.Core.Entities;
 
 namespace DeLaSalle.Ecommerce.Api.Services;
 
+
+
 public class ProductCategoryService : IProductCategoryService
 {
     private readonly IProductCategoryRepository _productCategoryRepository;
-
-
+    
     public ProductCategoryService(IProductCategoryRepository productCategoryRepository)
     {
         _productCategoryRepository = productCategoryRepository;
@@ -20,8 +21,6 @@ public class ProductCategoryService : IProductCategoryService
         var category = await _productCategoryRepository.GetById(id);
         return (category != null);
     }
-
-    
     public async Task<List<ProductCategoryDto>> GetAllAsync()
     {
         var categories = await _productCategoryRepository.GetAllAsync();
