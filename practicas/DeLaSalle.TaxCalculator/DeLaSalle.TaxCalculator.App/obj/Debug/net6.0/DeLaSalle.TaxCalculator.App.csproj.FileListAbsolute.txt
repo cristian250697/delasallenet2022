@@ -16,3 +16,21 @@
 /Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.App/obj/Debug/net6.0/DeLaSalle.TaxCalculator.App.pdb
 /Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.App/obj/Debug/net6.0/DeLaSalle.TaxCalculator.App.genruntimeconfig.cache
 /Users/usuario/mtw/delasallenet2022/projects/practicas/DeLaSalle.TaxCalculator/DeLaSalle.TaxCalculator.App/obj/Debug/net6.0/ref/DeLaSalle.TaxCalculator.App.dll
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\bin\Debug\net6.0\DeLaSalle.TaxCalculator.App.exe
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\bin\Debug\net6.0\DeLaSalle.TaxCalculator.App.deps.json
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\bin\Debug\net6.0\DeLaSalle.TaxCalculator.App.runtimeconfig.json
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\bin\Debug\net6.0\DeLaSalle.TaxCalculator.App.dll
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\bin\Debug\net6.0\DeLaSalle.TaxCalculator.App.pdb
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\bin\Debug\net6.0\DeLaSalle.TaxCalculator.Core.dll
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\bin\Debug\net6.0\DeLaSalle.TaxCalculator.Core.pdb
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.AssemblyInfoInputs.cache
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.AssemblyInfo.cs
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.csproj.CopyComplete
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.dll
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\refint\DeLaSalle.TaxCalculator.App.dll
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.pdb
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\DeLaSalle.TaxCalculator.App.genruntimeconfig.cache
+C:\Users\crist\Documents\La Salle\1er Cuatrimestre\.Net\delasallenet2022\practicas\DeLaSalle.TaxCalculator\DeLaSalle.TaxCalculator.App\obj\Debug\net6.0\ref\DeLaSalle.TaxCalculator.App.dll
